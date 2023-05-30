@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Monomaniac+One&family=Rancho&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* font style */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Monomaniac One', sans-serif;
+font-family: 'Rancho', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.navbar{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform:capitalize;
+  box-shadow: 0 8px 6px -6px #F7452E;
+  --webkit-box-shadow: 0 8px 6px -6px #F7452E;
+  border-bottom: solid #F7452E !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #F7452E;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+/* =======FOOTER==== */
+
+.footer {
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  background: linear-gradient(to right, #F7452E, #f16553);
+}
+
+.footercopyright{
+  font-size: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffefba;
+}
+
+
+/* ========= 404 --------- */
+
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  text-align: center;
+  border: 10px solid #f07a7a;
+  border-radius: 0;
+  background-color: #f07a7a;
+  color: white;
+  width: 250px;
+}
+.pnf-btn:hover {
+  border: 10px solid #fa4e37;
+  background: #fa4e37; 
+}
+
+/* ======== FAQs +========= */
+
+.nameheader {
+  text-align: center;
+}
+
+.faqs {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faqsheader {
+  font-size: 18px;
+  margin: 10px;
+  
+  box-sizing: border-box;
+}
+
+.faqspara {
+  text-align: justify;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* ============POLICY ======== */
+
+.pmain{
+  font-family: 'Rancho', cursive;
+  background-color: #F7452E;
+  box-shadow: 0 8px 6px -6px #F7452E;
+  --webkit-box-shadow: 0 8px 6px -6px #F7452E;
+  border-top: solid #F7452E !important;
+  border-bottom: solid #F7452E !important;
+  text-align: center;
+}
+
+.ppara, .apara{
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.pheader , .aheader{
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+
+/* ========= ABout FakeShop ======= */
+.fsl{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+}

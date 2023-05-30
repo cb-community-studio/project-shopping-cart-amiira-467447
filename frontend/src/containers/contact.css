@@ -1,0 +1,81 @@
+body {
+    font-family: 'Monomaniac One', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .csimg{
+    width: 1000px; 
+  }
+  .cstitle{
+    margin-top: 10%;
+  }
+
+  .csheader{
+    text-align: center;
+  }
+
+  li{
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .formtext{
+    text-align: center;
+  }
+
+  label{
+    font-size: 20px;
+  }
+
+  section{
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .btnAbt {
+    border: 1px solid #f07a7a;
+    border-radius: 0;
+    background-color: #f07a7a;
+    color: white;
+    width: 250px;
+  }
+  
+  .btnAbt:hover {
+    border: 1px solid #fa4e37;
+    background: #fa4e37; 
+  
+  }

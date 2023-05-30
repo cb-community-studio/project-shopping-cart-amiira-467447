@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .blog-post {
+    margin-bottom: 40px;
+  }
+  
+  .post-title {
+    margin-bottom: 10px;
+  }
+  
+  .post-meta {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .post-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+.post-image1{
+    max-width: 49.5%;
+    height: auto;
+    margin-bottom: 10px;
+}
+  
+  .post-content {
+    line-height: 1.5;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }

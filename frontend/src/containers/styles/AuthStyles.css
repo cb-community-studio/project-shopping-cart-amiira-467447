@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Monomaniac+One&family=Rancho&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* font style */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Monomaniac One', sans-serif;
+font-family: 'Rancho', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+/* ========= REGISTER PAGE=========   */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #fa4e37;
+
+}
+
+.form-container form {
+  box-shadow: rgba(20, 2, 2, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+.titlebrand{
+    text-align: center;
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom:45px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.form-container form input {
+  border: #fa4e37;
+  border-bottom: 1px solid #f07a7a;
+  border-radius: 0;
+}
+
+.form-container form button {
+  border: 1px solid #f07a7a;
+  border-radius: 0;
+  background-color: #f07a7a;
+  color: white;
+  width: 250px;
+}
+
+.form-container form button:hover {
+  border: 1px solid #fa4e37;
+  background: #fa4e37; 
+
+}
