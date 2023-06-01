@@ -1,11 +1,11 @@
 # project-shopping-cart-amiira-467447
-PROGRESS || 6.16pm 30/5/2023
-HomePage        | Inprogress |Continue After Finished UserAccount
+PROGRESS || 5pm 1/6/2023
+HomePage        | Inprogress |Frontend only the CRUD Product havent added. Error problem at Product Image
 Product Listing | Inprogress | Structure Draft
 Product Details | Inprogress | No update
 Shopping Carts  | Inprogress | No update
 Checkout        | Inprogress | No update
-UserAccount     | On-going   | On registeration need to configure again due to problem after second user register error occur. 
+UserAccount     | 80%        | Half Complete non admin. Admin complete
 About Us        | Complete   | Live
 Contact Us      | Complete   | Live
 Faqs            | Complete   | Live
