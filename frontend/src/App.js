@@ -12,6 +12,7 @@ import PageNotfound from "./containers/pageNotfound";
 import Blog from "./containers/blog";
 import Dashboard from "./containers/user/Dashboard"
 import PrivateRoute from "./components/Routes/Private.js";
+import ProductCategory from "./containers/productcategory"
 // import ForgotPasssword from "./components/Auth/ForgotPasssword";
 
 import AdminRoute from "./components/Routes/AdminRoute";
@@ -35,14 +36,15 @@ function App() {
           <Route path="" element={<Dashboard />} />
         </Route>
 
+        
 
         <Route path="/blog" element={<Blog />} />
-
+        <Route path="/category" element={<ProductCategory />} />
         <Route path="/register" element={<Register />} />
          <Route path="/login" element={<Login />} />
          {/* <Route path="/forgot-password" element={<ForgotPasssword />} /> */}
 
-
+        
          <Route path="/dashboard" element={<AdminRoute />}>
           <Route path="admin" element={<AdminDashboard />} />
           <Route path="admin/create-category" element={<CreateCategory />} />

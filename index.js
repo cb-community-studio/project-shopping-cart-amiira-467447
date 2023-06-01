@@ -6,6 +6,7 @@ import morgan from "morgan";
 //this important on connect to mongodb, tlg since kat dlm db. kite buat 'try catch' on where berjaya ambik data ke x
 import connectDB from "./config/db.js"; 
 import authRoutes from "./routes/authRoute.js";
+import categoryRoutes from './routes/category.Routes.js'
 import cors from "cors";
 
 
@@ -25,7 +26,7 @@ app.use(morgan(`dev`));
 
 //routes
 app.use("/api/v1/auth", authRoutes);
-
+app.use('/api/v1/category', categoryRoutes)
 
 //REST API
 app.get("/", (req, res) => {
