@@ -32,10 +32,14 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     role: {
-      //optiona;
+      //admin1 = 0!admin;
       type: Number,
       default: 0,
     },
+    question:{
+      type: String,
+      require:true,
+    }
   },
   { timestamps: true }
 );
